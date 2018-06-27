@@ -1,0 +1,18 @@
+__/\\\\\\\
+ _\///\\\/
+  ___\/\\\
+   __/\\\\\\\
+    _\///////
+
+self.line[i].indent = i
+if not cell.cell_above.is_empty:
+    self.line[i].start = '\/'
+else:
+    self.line[i].start = '_/'
+
+for i in range(len(self.line.cells))
+if not self.line.cells[i].is_empty:
+    self.line.cells[i].fill = '\\'
+else:
+    self.line.cells[i].fill = '//'
+    
